@@ -11,14 +11,14 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Veterans Memorial Park</title>
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">VMP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,26 +26,100 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">VMP <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Story</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Letters</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Press</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Location</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!-- Main Content -->
+    <div class="container-fluid ">
+
+        <!-- Hero Image Row -->
+        <div class="row">
+            <div class="col-12 px-0">
+                <img src="./assets/images/sign-night.jpg" class="img-fluid w-100 hero-img"
+                    alt="park wall with title and plaque">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mt-5">Veterans Memorial Park</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-2 col-8 mt-4">
+
+                <img src="./assets/images/reading-letters.jpg" class="img-fluid letter-img mr-3" alt="man reading letters on the wall">
+
+                <p class="indent">
+                    Between the years 1965 and 1975 more than 2.5 million U.S. military personnel served within
+                    the
+                    borders of South Vietnam. Over 58,000 American soldiers lost their lives, 2,000 soldiers
+                    were
+                    recorded as missing in action, and more than 300,000 soldiers were injured. Many returned
+                    home and
+                    never fully recovered from the trauma of war.
+                </p>
+                <p class="indent">
+                    We give our thanks and dedicate this park to all who served and to their families who
+                    checked their
+                    mailbox daily, hoping for reassurance that their loved ones were alive and well.
+                </p>
+                <p class="indent">
+                    On May 15, 1969, our family was forever changed by the knock on the front door that brought
+                    the news
+                    that our 19 year old brother Ernie, had died of wounds received while assisting a fellow
+                    soldier.
+                    That knock began an unending journey of grief, especially for our parents, Carl and Mary
+                    Pinamonti.
+                    This park is a step on that journey. A place for quiet reflection, and a place to celebrate
+                    the
+                    strength and love of family.
+                </p>
+                <p class="indent">
+                    We gratefully acknowledge the City of Vista, Affirmed Housing, and the generosity of many
+                    private
+                    donors whose support helped make this park a reality.
+                </p>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- End Main Container -->
+    </div>
 
 
 
     <!-- JavaScript -->
-    <script src="app.js"></script>
+    <script src="./assets/js/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -56,6 +130,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>

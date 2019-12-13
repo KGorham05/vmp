@@ -1,0 +1,12 @@
+.indent {
+    text-indent: 35px;
+}
+
+.hero-img {
+    max-height: 500px;
+}
+
+.letter-img {
+    max-width: 25vw;
+    float: left;
+}
