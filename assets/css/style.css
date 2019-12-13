@@ -12,6 +12,6 @@
     float: left;
 }
 
-#story p {
+.story-text {
     font-size: 19px;
 }
