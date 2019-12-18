@@ -8,9 +8,9 @@ body {
 }
 
 .shadow-1 {
-    -webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.6);
-    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.4);
 }
 
 .indent {
