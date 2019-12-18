@@ -1,0 +1,22 @@
+{
+  "name": "vmp",
+  "version": "1.0.0",
+  "description": "Vista Memorial Park",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KGorham05/vmp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KGorham05/vmp/issues"
+  },
+  "homepage": "https://github.com/KGorham05/vmp#readme",
+  "dependencies": {
+    "swiper": "^5.2.1"
+  }
+}
