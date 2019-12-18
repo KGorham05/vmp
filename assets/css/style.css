@@ -1,10 +1,25 @@
+body {
+    background-color: #aab0b4;
+}
+
+#nav {
+    /* background-color: #1A1A1D; */
+    background-color: #2F4454;
+}
+
+.shadow-1 {
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.6);
+}
 
 .indent {
     text-indent: 35px;
 }
 
 .hero-img {
-    max-height: 500px;
+    height: 100vh;
+    min-height: 500px;
 }
 
 .letter-img {
@@ -12,6 +27,7 @@
     float: left;
 }
 
-.story-text {
+.about-text {
     font-size: 19px;
 }
+
