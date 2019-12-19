@@ -44,12 +44,24 @@ body {
     min-height: 500px;
 }
 
-.letter-img {
+.letter-img, .park-img {
     max-width: 25vw;
+}
+
+.park-img {
     float: left;
+}
+
+.letter-img {
+    float: right;
 }
 
 .t19 {
     font-size: 19px;
+}
+
+.swiper-container {
+    width: 100%;
+    min-height: 300px;
 }
 
