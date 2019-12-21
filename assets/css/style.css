@@ -1,5 +1,5 @@
 body {
-    background-color: #d0d2d3;
+    background-color: whitesmoke;
 }
 
 .anchor {
@@ -24,7 +24,7 @@ body {
 
 .bgimg-1 {
   background-image: url("../images/sign-night.jpg");
-  height: 750px;
+  height: 550px;
 }
 
 .bgimg-2 {
@@ -64,9 +64,5 @@ body {
     font-size: 19px;
 }
 
-.swiper-container {
-    /* width: 100%; */
-    min-height: 300px;
-    margin: 0 auto;
-}
+
 
