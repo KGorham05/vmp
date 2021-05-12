@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/KGorham05/vmp#readme",
   "dependencies": {
-    "swiper": "^5.2.1"
+    "swiper": "^6.5.1"
   }
 }
